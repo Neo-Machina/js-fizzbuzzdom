@@ -19,8 +19,6 @@ for(let i = 1; i <= 100; i++)  {
         multipleNumberClassName = i;
     }
 
-    console.log(multipleNumberClassName);
-
     // Creazione div box
     const newBox = `<div class="box ${multipleNumberClassName}">${multipleNumberClassName}</div>`;
 
