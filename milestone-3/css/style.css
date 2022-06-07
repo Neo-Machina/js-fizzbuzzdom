@@ -4,3 +4,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #083b4c;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 60px;
+}
+
+.numbers-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    background-color: #1389b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box.fizz {
+    background-color: #0bd6a1;
+}
+.box.buzz {
+    background-color: #ffd166;
+}
+.box.fizzbuzz {
+    background-color: #f0466f;
+}
